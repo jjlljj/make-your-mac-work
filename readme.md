@@ -1,11 +1,13 @@
+## What is this?
+
+A set of scripts for setting up a new Mac as a dev machine for JavaScript development. Includes Homebrew, npm, tools for React/React-Native and Node.js, as well as automating the install of Chrome, Slack, Postman, and other apps.
+
 ## Setup
 
-Clone the repo into user root:
-  `git clone https://github.com/jjlljj/set-up-mac ~/set-up-mac`
+Clone the repo:
+  `git clone git@github.com:jjlljj/make-your-mac-work.git`
 
-## Setting Up A New Machine
-
-Install Xcode & Xcode command line tools, then run `setup-new-machine.sh`. Comment/uncomment out applications and dependencies you don't want to install prior to running setup command.
+Install Xcode & Xcode command line tools, then comment/uncomment out applications and dependencies you do/don't want to install, and run `setup-new-machine.sh`. 
 
 You may need to update permissions to execute the scripts
 ```

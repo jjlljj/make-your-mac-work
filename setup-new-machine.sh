@@ -10,9 +10,6 @@ MY_DIR="$(dirname "$0")"
 SKIP_ANALYTICS=${SKIP_ANALYTICS:-0}
 export HOMEBREW_NO_ANALYTICS=1
 
-# sync vimrc
-rsync -v ./.vimrc ~/.vimrc;
-
 source ${MY_DIR}/scripts/homebrew.sh
 source ${MY_DIR}/scripts/applications.sh
 
