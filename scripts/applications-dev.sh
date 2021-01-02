@@ -3,22 +3,10 @@
 set +e
 
 echo
-echo "Installing applications"
+echo "Installing dev applications"
 
 # Utils
 brew cask install postman
-brew cask install spectacle
-brew cask install scroll-reverser
-
-# Browser
-brew cask install google-chrome
-#brew cask install firefox
-
-# Communication
-brew cask install slack
-
-# Life
-brew cask install spotify
 
 # Development
 brew install tmux

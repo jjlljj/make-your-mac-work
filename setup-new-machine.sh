@@ -11,7 +11,8 @@ SKIP_ANALYTICS=${SKIP_ANALYTICS:-0}
 export HOMEBREW_NO_ANALYTICS=1
 
 source ${MY_DIR}/scripts/homebrew.sh
-source ${MY_DIR}/scripts/applications.sh
+source ${MY_DIR}/scripts/applications-productivity.sh
+source ${MY_DIR}/scripts/applications-dev.sh
 
 source ${MY_DIR}/scripts/node.sh
 source ${MY_DIR}/scripts/ruby.sh
