@@ -1,6 +1,6 @@
 ## What is this?
 
-A set of scripts for setting up a new Mac as a dev machine for JavaScript development. Includes Homebrew, npm, tools for React/React-Native and Node.js, as well as automating the install of Chrome, Slack, Postman, and other apps.
+A set of scripts for setting up a new Mac as a dev machine for JavaScript development. Includes Homebrew, npm, tools for React/React-Native and Node.js, as well as automating the install of Chrome, Slack, Postman, and other apps. In other words, most of the stuff you need to 'Make your Mac work'.
 
 ## Setup
 
