@@ -12,13 +12,13 @@ brew install --cask spectacle
 
 # Browser
 brew install --cask google-chrome
-#brew cask install firefox
+#brew install --cask firefox
 
 # Life
 brew install --cask spotify
 
 # Communication
 brew install --cask slack
-#brew cask install zoom
+#brew install --cask zoom
 
 set -e
