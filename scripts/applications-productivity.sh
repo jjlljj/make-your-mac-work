@@ -6,19 +6,19 @@ echo
 echo "Installing applications"
 
 # Utils
-brew cask install spectacle
-brew cask install scroll-reverser
-brew cask install flux
+brew install --cask spectacle
+#brew install --cask scroll-reverser
+#brew install --cask flux
 
 # Browser
-brew cask install google-chrome
+brew install --cask google-chrome
 #brew cask install firefox
 
 # Life
-brew cask install spotify
+brew install --cask spotify
 
 # Communication
-brew cask install slack
-brew cask install zoom
+brew install --cask slack
+#brew cask install zoom
 
 set -e

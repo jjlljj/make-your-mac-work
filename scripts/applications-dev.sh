@@ -6,7 +6,7 @@ echo
 echo "Installing dev applications"
 
 # Utils
-brew cask install postman
+brew install --cask postman
 
 # Development
 brew install tmux
