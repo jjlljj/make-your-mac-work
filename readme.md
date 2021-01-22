@@ -7,7 +7,7 @@ A set of scripts for setting up a new Mac as a dev machine for JavaScript develo
 Clone the repo:
   `git clone git@github.com:jjlljj/make-your-mac-work.git`
 
-Install Xcode & Xcode command line tools, then comment/uncomment out applications and dependencies you do/don't want to install, and run `setup-new-machine.sh`. 
+Install Xcode command line tools, then comment/uncomment out applications and dependencies you do/don't want to install, and run `setup-new-machine.sh`. 
 
 You may need to update permissions to execute the scripts
 ```
