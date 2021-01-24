@@ -36,20 +36,12 @@ set nu
 set cursorline
 
 " MAKE VIM RENDER FASTER
-set ttyfast                       " u got a fast terminal
+set ttyfast                       " fast terminal
 set ttyscroll=3
-set lazyredraw                    " to avoid scrolling problems
+set lazyredraw                    " avoid scrolling problems
 
-"FUNCTIONS
-
-"Remove all trailing whitespace by pressing F4
+" F4 TO REMOVE TRAILING WHITESPACE 
 nnoremap <F4> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
-"
-" TOGGLE NUMBERS VIEW
-function! NumberToggle()
-  :exec &nu==0? "se nu!" : "se rnu!"
-endfunction
-nnoremap <C-n> :call NumberToggle()<CR>
 
 " TOGGLE HIGHLIGHT SEARCH
 nnoremap <leader>h ::set hlsearch!<CR>
