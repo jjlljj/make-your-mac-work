@@ -12,6 +12,7 @@ nnoremap <C-j> <C-w><C-j>
 nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 
+" SET TAB BEHAVIOR
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 " SET MOUSE USE
@@ -31,7 +32,7 @@ set hlsearch
 " COPY TO CLIPBOARD FROM VIM
 set clipboard=unnamed
 
-" SET LINE NU, CURSOR LINE HIGHLIGHT, SEARCH HIGHLIGHT
+" SET LINE NU, CURSOR LINE HIGHLIGHT
 set nu
 set cursorline
 
