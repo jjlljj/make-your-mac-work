@@ -13,5 +13,4 @@ You may need to update permissions to execute the scripts
 ```
 chmod u+x ./setup-new-machine.sh
 chmod u+x -r ./scripts
-chmod u+x -r ./dev_scripts
 ```
